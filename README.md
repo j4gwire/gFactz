@@ -22,7 +22,6 @@
    git clone https://github.com/ScribeAegis/gfactz.git
    cd gfactz
 
-   ---
 
 2. **Add your Google Fact Check API key:**
 
