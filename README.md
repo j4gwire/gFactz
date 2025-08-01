@@ -55,10 +55,5 @@ You must obtain your own API key.
 
 ---
 
-**Contributing**
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
----
-
 **License**
 MIT License — See LICENSE file.
