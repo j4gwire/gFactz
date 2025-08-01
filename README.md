@@ -22,6 +22,8 @@
    git clone https://github.com/ScribeAegis/gfactz.git
    cd gfactz
 
+   ---
+
 2. **Add your Google Fact Check API key:**
 
 Open js/app.js and replace the placeholder:
@@ -30,12 +32,16 @@ Open js/app.js and replace the placeholder:
 with your own API key. You can get a key here:
 https://developers.google.com/fact-check/tools/api
 
+---
+
 3. **Open index.html in your browser.**
 
 **API Key Setup**
 The app uses the Google Fact Check Tools API.
 
 You must obtain your own API key.
+
+---
 
 **Tech Stack**
 HTML5 & CSS with Tailwind CSS for styling
@@ -44,8 +50,12 @@ Vanilla JavaScript for logic and API calls
 
 Google Fact Check Tools API for data
 
+---
+
 **Contributing**
 Contributions are welcome! Feel free to open issues or submit pull requests.
+
+---
 
 **License**
 MIT License — See LICENSE file.
