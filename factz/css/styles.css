@@ -1,0 +1,45 @@
+/* Spinner for loading */
+.spinner {
+  border: 3px solid transparent;
+  border-top-color: white;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Fade-in animation for results */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out both;
+}
+
+/* Visually hidden class for accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+/* Add bottom margin on Buy Me Coffee CTA on small screens */
+@media (max-width: 640px) {
+  .buy-coffee-cta {
+    margin-bottom: 1.5rem;
+  }
+}
