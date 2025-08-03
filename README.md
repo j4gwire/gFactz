@@ -8,8 +8,6 @@
 
 - Search any claim or headline to find relevant fact checks.
 - Displays verdicts with publisher details and review dates.
-- Pagination support to browse multiple pages of results.
-- Clean, responsive UI.
 - Privacy-respecting: no queries or data are stored.
 
 ---
