@@ -17,7 +17,7 @@
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/ScribeAegis/gfactz.git
+   git clone https://github.com/j4gwire/gfactz.git
    cd gfactz
 
 
